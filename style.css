@@ -2,7 +2,7 @@
 html, body {
   width: 100%;
   margin: 0%;
-  font-family: 'Roboto', sans-serif;; 
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(194,232,246);
   text-align: center;
   color: rgb(0,1,6);
@@ -42,4 +42,27 @@ html, body {
 }
 #reset{
     color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    html, body {
+        background-color: rgb(24,50,61);
+        color: rgb(215,218,220);
+      }
+      .time{
+        width: 100%;
+        padding: 5%;
+    }
+    .digit{
+        font-size: 5vmax;
+    }
+    .buttons{
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+    }
+    .btn{
+        padding: 9px;
+        width: 28%;
+    }
 }
